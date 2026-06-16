@@ -1,0 +1,22 @@
+Topic: hashlib
+
+Goal:
+Use hashlib for hashing text and checking file integrity.
+
+Important:
+Hashing is one-way. You cannot decrypt a hash.
+
+Common Algorithms:
+- SHA256
+- SHA512
+- MD5
+
+Security Note:
+Avoid MD5 and SHA1 for security-sensitive use cases.
+Use SHA256 or stronger.
+
+Run examples:
+1. 01_hash_text_sha256.py
+2. 02_hash_password_with_salt_demo.py
+3. 03_file_checksum.py
+4. 04_compare_file_checksum.py

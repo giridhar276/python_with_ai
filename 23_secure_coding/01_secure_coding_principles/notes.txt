@@ -1,0 +1,22 @@
+Topic: Secure Coding Principles in Python
+
+Goal:
+Understand common secure coding practices before learning specific libraries.
+
+Key Principles:
+1. Never hardcode secrets in source code.
+2. Use environment variables for configuration.
+3. Validate user input.
+4. Avoid exposing sensitive error details.
+5. Avoid logging passwords, tokens, and API keys.
+6. Use secure libraries for security-sensitive tasks.
+7. Keep dependencies updated.
+8. Use least privilege.
+9. Handle files carefully.
+10. Prefer safe defaults.
+
+Run the examples in this order:
+1. 01_insecure_hardcoded_secret.py
+2. 02_secure_env_variable.py
+3. 03_input_validation.py
+4. 04_safe_error_handling.py

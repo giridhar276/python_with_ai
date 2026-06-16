@@ -1,0 +1,6 @@
+order_id,customer,region,product,quantity,price,status
+O1001,TCS,South,Laptop,3,65000,Delivered
+O1002,Infosys,South,Monitor,10,12000,Pending
+O1003,IBM,West,Keyboard,20,1200,Delivered
+O1004,Accenture,North,Laptop,2,70000,Cancelled
+O1005,Wipro,East,Mouse,50,700,Delivered

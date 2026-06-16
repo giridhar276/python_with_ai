@@ -1,0 +1,7 @@
+app_name: CorporateTrainingApp
+environment: dev
+retry_count: 3
+log_level: INFO
+features:
+  email_alerts: true
+  audit_log: true

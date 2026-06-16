@@ -1,0 +1,14 @@
+Topic: secrets Module
+
+Goal:
+Generate cryptographically secure random values.
+
+Why not random module?
+The random module is useful for simulations, games, and non-security tasks.
+For passwords, OTPs, API keys, password reset links, and secure tokens, use secrets.
+
+Run the examples:
+1. 01_generate_secure_token.py
+2. 02_generate_otp.py
+3. 03_generate_secure_password.py
+4. 04_password_reset_link.py

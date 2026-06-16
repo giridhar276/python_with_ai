@@ -1,0 +1,7 @@
+emp_id,first_name,last_name,email,department,salary
+101,Ravi,Kumar,ravi.kumar@example.com,IT,55000
+102,Sneha,Reddy,sneha.reddy@example.com,HR,48000
+103,Amit,Sharma,amit.sharma@example.com,Finance,62000
+104,Meena,Iyer,meena.iyer@example.com,IT,70000
+105,John,Mathew,john.mathew@example.com,Sales,45000
+106,Priya,Nair,priya.nair@example.com,Marketing,52000

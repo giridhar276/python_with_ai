@@ -1,0 +1,6 @@
+ticket_id,priority,status,category,hours_open,owner
+INC001,P1,Open,Network,6,Asha
+INC002,P3,Closed,Access,12,Rahul
+INC003,P2,Open,Database,20,Meena
+INC004,P4,Closed,Software,4,John
+INC005,P1,Open,Server,2,Kiran

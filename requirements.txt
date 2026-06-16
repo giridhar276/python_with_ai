@@ -1,0 +1,8 @@
+python-dotenv
+pyyaml
+openpyxl
+schedule
+pandas
+requests
+tqdm
+rich

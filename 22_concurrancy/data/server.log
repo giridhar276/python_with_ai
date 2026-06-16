@@ -1,0 +1,6 @@
+2026-05-08 10:00:01 INFO Application started
+2026-05-08 10:01:11 ERROR Database timeout
+2026-05-08 10:02:22 INFO User login successful
+2026-05-08 10:03:45 WARNING High memory usage
+2026-05-08 10:04:17 ERROR Payment API failed
+2026-05-08 10:05:33 INFO Application stopped

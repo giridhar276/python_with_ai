@@ -1,0 +1,5 @@
+Python is powerful.
+Concurrency helps us manage multiple tasks.
+Threading is good for I/O-bound tasks.
+Multiprocessing is good for CPU-bound tasks.
+Asyncio is useful for high-concurrency I/O tasks.
