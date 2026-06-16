@@ -1,0 +1,14 @@
+[
+  {
+    "user": "asha",
+    "event": "login"
+  },
+  {
+    "user": "ravi",
+    "event": "download"
+  },
+  {
+    "user": "asha",
+    "event": "logout"
+  }
+]
