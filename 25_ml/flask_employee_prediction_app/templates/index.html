@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Hours Prediction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f7fb;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 420px;
+            margin: 50px auto;
+            background: white;
+            padding: 28px;
+            border-radius: 14px;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+        }
+        h2 {
+            text-align: center;
+            color: #1f2937;
+            margin-bottom: 8px;
+        }
+        .subtitle {
+            text-align: center;
+            color: #6b7280;
+            font-size: 14px;
+            margin-bottom: 24px;
+        }
+        label {
+            font-weight: bold;
+            display: block;
+            margin-top: 14px;
+            color: #374151;
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-top: 6px;
+            border: 1px solid #d1d5db;
+            border-radius: 8px;
+            box-sizing: border-box;
+        }
+        button {
+            width: 100%;
+            padding: 12px;
+            margin-top: 22px;
+            background: #2563eb;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #1d4ed8;
+        }
+        .result {
+            margin-top: 22px;
+            padding: 14px;
+            background: #ecfdf5;
+            border: 1px solid #10b981;
+            border-radius: 8px;
+            text-align: center;
+            color: #065f46;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Employee Hours Prediction</h2>
+        <p class="subtitle">Predict weekly working hours using Linear Regression</p>
+
+        <form method="POST">
+            <label>Age</label>
+            <input type="number" name="age" value="39" required>
+
+            <label>Final Weight / fnlwgt</label>
+            <input type="number" name="fnlwgt" value="77516" required>
+
+            <label>Education Number</label>
+            <input type="number" name="education_num" value="13" required>
+
+            <label>Capital Gain</label>
+            <input type="number" name="capital_gain" value="2174" required>
+
+            <label>Capital Loss</label>
+            <input type="number" name="capital_loss" value="0" required>
+
+            <button type="submit">Predict Hours</button>
+        </form>
+
+        {% if prediction is not none %}
+            <div class="result">
+                Predicted Hours Per Week: {{ prediction }}
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>
